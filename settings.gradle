@@ -1,0 +1,2 @@
+rootProject.name = "LavagemAtv3"
+include ':app'
