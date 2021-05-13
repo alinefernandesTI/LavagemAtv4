@@ -4,12 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaDois">
+    tools:context=".TelaCinco">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/lavagensList"
-        android:layout_width="415dp"
-        android:layout_height="739dp"
-        tools:ignore="MissingConstraints" />
-
+        android:id="@+id/contatos_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,7 +21,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class telaDois extends AppCompatActivity {
+public class TelaDois extends AppCompatActivity {
     RecyclerView recyclerView;
     List<Lavagens> lavagem;
     private static String JSON_URL = "https://my-json-server.typicode.com/alinefernandesTI/atividade01/Lavagens";
@@ -49,6 +49,7 @@ public class telaDois extends AppCompatActivity {
                         Lavagens lavagens = new Lavagens();
                         lavagens.setNome(lavagensObject.getString("nome").toString());
                         lavagens.setValor(lavagensObject.getString("valor").toString());
+
                             lavagem.add(lavagens);
 
 
